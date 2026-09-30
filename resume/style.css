@@ -1,4 +1,5 @@
 /* Default font for body, headers, paragraphs, lists and list items */
+
 BODY{
 font-family: 'Open Sans', Arial, sans-serif;
 font-size: 1em;
@@ -6,7 +7,7 @@ color: #444;
 font-weight: 400;
 }
 
-/* Coop's name! */
+/* Coopname! */
 #name h1 {
 font-size: 3em;
 color: #33485e;
