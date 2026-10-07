@@ -1,52 +1,107 @@
-/* Default font for body, headers, paragraphs, lists and list items */
+/* Coop's Resume CSS, I am stylin' on 'em! */
 
+
+/* some ground rules... */
 BODY{
 font-family: 'Open Sans', Arial, sans-serif;
-font-size: 1em;
+font-size: em;
 color: #444;
 font-weight: 400;
 }
 
-/* Coopname! */
+/* paige widthhhh :ppp ! */
+#container {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+};
+
+/* naming style! */
 #name h1 {
 font-size: 3em;
 color: #33485e;
 text-transform: uppercase;
 text-align: center;
+border-bottom: 1px solid #33485e;
+width: 60%;
+margin: 0 auto;
 }
 
-/* My Title */
-strong {
-font-size: 1.5em;
-color: #33485e;
+/* Cooper's title style supreme */
+#title {
+font-size: 3em;
 text-transform: uppercase;
-font-weight: 400;
+font-size: 1.5em;
+text-align: center;
+color: #33485e;
+font-weight: 600;
+margin-top: 20px;
+margin-bottom: 0px;
+margin-right: 0px;
+margin-left: 0px;}
+
+/* contact coop info style! */
+.menu {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px;
 }
 
 /* Section titles */
-h2 {
+.sectionheader {
 font-size: 1.5em;
 background-color: #33485e;
 color: #fff;
 text-transform: uppercase;
 font-weight: 400;
+margin-top: 20px;
+margin-bottom: 10px;
+margin-right: 0px;
+margin-left: 0px;
+width: 70%;
+min-width: 300px;
 }
 
-/* Job titles */
-h3 {
+/* Job titlezz */
+.jobtitle {
 font-size: 1.5em;
 font-weight: 600;
 }
 
-/* Job organization */
-h4 {
+/* organization styles */
+.organization {
 font-size: 1.5em;
 font-weight: 400;
 }
 
 /* Job dates */
-h5 {
+.dates {
 font-size: 1em;
 font-weight: 400;
 font-style: italic;
+margin-top: 10px;
+margin-bottom: 0px;
+}
+
+*/ job description styles */
+.description {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+*education styles */
+#degrees {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+*skills styles */
+#do { 
+margin-top: 5px;
+margin-bottom: 0px;
+margin-right: 0px;
+margin-left: 0px;
 }
