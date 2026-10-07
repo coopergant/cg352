@@ -1,6 +1,6 @@
 /* Coop's Resume CSS, I am stylin' on 'em! */
 
-/* some ground rules... */
+/* some ground rules... (body font) */
 BODY {
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 1em;
@@ -41,6 +41,7 @@ BODY {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
+    boldness: 400;
 }
 
 /* contact coop info style! */
@@ -49,12 +50,11 @@ BODY {
     padding: 0;
     text-align: center;
 }
+.contact
+    {display: inline;
+    }
 
-.menu li {
-    display: inline;
-}
-
-/* Section titles */
+/* Section headers! :P */
 .sectionheader {
     font-size: 1.5em;
     background-color: #33485e;
@@ -72,7 +72,7 @@ BODY {
 /* Job titlezz */
 .jobtitle {
     font-size: 1.5em;
-    font-weight: 800;
+    font-weight: 600;
     color: #000000;
 }
 
@@ -118,7 +118,7 @@ BODY {
     margin-left: 0px;
 }
 
-/* mission statement (keep this at the bottom!) */
+/* mission statement?? */
 .top {
     width: 60%;
     min-width: 300px;
