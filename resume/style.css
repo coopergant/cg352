@@ -19,6 +19,7 @@ BODY {
 /* naming style! */
 #name {
     font-size: 3em;
+    font-weight: 600;
     color: #33485e;
     text-transform: uppercase;
     text-align: center;
@@ -36,7 +37,10 @@ BODY {
     text-align: center;
     color: #33485e;
     font-weight: 600;
-    margin: 20px 0 0 0;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 
 /* contact coop info style! */
@@ -57,15 +61,19 @@ BODY {
     color: #fff;
     text-transform: uppercase;
     font-weight: 400;
-    margin: 20px 0 10px 0;
     width: 70%;
     min-width: 300px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
 }
 
 /* Job titlezz */
 .jobtitle {
     font-size: 1.5em;
-    font-weight: 600;
+    font-weight: 800;
+    color: #000000;
 }
 
 /* organization styles */
@@ -79,22 +87,35 @@ BODY {
     font-size: 1em;
     font-weight: 400;
     font-style: italic;
-    margin: 2px 0 0 0;
+   margin-top: 2px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 
 /* job description styles */
 .description {
-    margin: 10px 0;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
 }
 
 /* education styles */
 #degrees {
-    margin: 5px 0 0 0;
+   margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 
 /* skills styles */
 #do {
-    margin: 5px 0 0 0;
+    font-weight: 600;
+     margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 
 /* mission statement (keep this at the bottom!) */
