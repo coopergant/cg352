@@ -1,107 +1,106 @@
 /* Coop's Resume CSS, I am stylin' on 'em! */
 
-
 /* some ground rules... */
-BODY{
-font-family: 'Open Sans', Arial, sans-serif;
-font-size: em;
-color: #444;
-font-weight: 400;
+BODY {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 1em;
+    color: #444;
+    font-weight: 400;
 }
 
 /* paige widthhhh :ppp ! */
 #container {
-width: 100%;
-max-width: 1200px;
-margin: 0 auto;
-};
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
 
 /* naming style! */
-#name h1 {
-font-size: 3em;
-color: #33485e;
-text-transform: uppercase;
-text-align: center;
-border-bottom: 1px solid #33485e;
-width: 60%;
-margin: 0 auto;
+#name {
+    font-size: 3em;
+    color: #33485e;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid #33485e;
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* Cooper's title style supreme */
 #title {
-font-size: 3em;
-text-transform: uppercase;
-font-size: 1.5em;
-text-align: center;
-color: #33485e;
-font-weight: 600;
-margin-top: 20px;
-margin-bottom: 0px;
-margin-right: 0px;
-margin-left: 0px;}
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-align: center;
+    color: #33485e;
+    font-weight: 600;
+    margin: 20px 0 0 0;
+}
 
 /* contact coop info style! */
 .menu {
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    padding: 0px;
+}
+
+.menu li {
+    display: inline;
 }
 
 /* Section titles */
 .sectionheader {
-font-size: 1.5em;
-background-color: #33485e;
-color: #fff;
-text-transform: uppercase;
-font-weight: 400;
-margin-top: 20px;
-margin-bottom: 10px;
-margin-right: 0px;
-margin-left: 0px;
-width: 70%;
-min-width: 300px;
+    font-size: 1.5em;
+    background-color: #33485e;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 20px 0 10px 0;
+    width: 70%;
+    min-width: 300px;
 }
 
 /* Job titlezz */
 .jobtitle {
-font-size: 1.5em;
-font-weight: 600;
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
 /* organization styles */
 .organization {
-font-size: 1.5em;
-font-weight: 400;
+    font-size: 1.25em;
+    font-weight: 400;
 }
 
 /* Job dates */
-.dates {
-font-size: 1em;
-font-weight: 400;
-font-style: italic;
-margin-top: 10px;
-margin-bottom: 0px;
+.date {
+    font-size: 1em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 2px 0 0 0;
 }
 
-*/ job description styles */
+/* job description styles */
 .description {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin: 10px 0;
 }
 
-*education styles */
+/* education styles */
 #degrees {
-    margin-top: 5px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin: 5px 0 0 0;
 }
-*skills styles */
-#do { 
-margin-top: 5px;
-margin-bottom: 0px;
-margin-right: 0px;
-margin-left: 0px;
+
+/* skills styles */
+#do {
+    margin: 5px 0 0 0;
+}
+
+/* mission statement (keep this at the bottom!) */
+.top {
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
