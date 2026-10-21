@@ -1,0 +1,79 @@
+#style.css
+{
+margin: 0 auto;
+width: 900px;
+}  
+
+
+p{
+   font-family: Georgia, serif;
+   font-size: 15px;
+}
+
+
+#masthead img {
+width: 100%;
+display: block;
+}
+
+
+#story {
+width: 700px;
+margin: 0 auto;
+padding: 20px;
+}
+
+
+h1 {
+font-family: Georgia, serif;
+font-size: 40px;
+color: #000000;
+}
+
+
+h3 {
+font-family: Georgia, serif;
+font-style: italic;
+font-size: 20px;
+color: #000000;
+}
+
+
+#byline {
+font-family: Georgia, serif;
+font-size: 11px;
+font-style: italic;
+}
+
+
+p {
+font-family: Georgia, serif;
+font-size: 13px;
+line-height: 1.6;
+}
+
+
+blockquote{font: 35px/50px normal Georgia, serif;
+font-style: italic;
+margin-top: 15px;
+margin-bottom: 15px;
+color: red;
+margin-left: 50px;
+padding-left: 15px;
+border-left: 4px solid #ccc;}
+
+
+
+img {
+width: 100%;
+}
+
+
+figcaption {
+font-family: Georgia, serif;
+font-size: 12px;
+color: #000000;
+}
+
+
+
