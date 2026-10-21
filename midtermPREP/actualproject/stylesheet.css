@@ -1,4 +1,4 @@
-#style.css
+#stylesheet.css
 {
 margin: 0 auto;
 width: 900px;
@@ -10,6 +10,15 @@ p{
    font-size: 15px;
 }
 
+blockquote {
+   font-family: Georgia, serif;
+   font-size: 30px;
+   font-style: italic;
+   color: #FF0000;
+   border-left: 3px solid #000000;
+   padding-left: 10px;
+   margin-left: 0px;
+}
 
 #masthead img {
 width: 100%;
@@ -51,18 +60,6 @@ font-family: Georgia, serif;
 font-size: 13px;
 line-height: 1.6;
 }
-
-
-blockquote{font: 35px/50px normal Georgia, serif;
-font-style: italic;
-margin-top: 15px;
-margin-bottom: 15px;
-color: red;
-margin-left: 50px;
-padding-left: 15px;
-border-left: 4px solid #ccc;}
-
-
 
 img {
 width: 100%;
