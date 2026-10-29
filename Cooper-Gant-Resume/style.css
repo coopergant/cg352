@@ -36,7 +36,7 @@ h3 {
 
 
 
-/* adding my ugly face to the top of the page */
+/* adding my face to the top of the page */
 .headshot {
   width: 100%;
   max-width: 250px;
@@ -112,5 +112,30 @@ footer {
   color: #4AF6C3;
   text-align: center;
   padding: 25px;
+}
+
+/* new page topper cause im afraid the last one isnt as good*/
+/* Page topper */
+#topper {
+  padding: 60px 0 40px;
+  border-bottom: 1px solid #FB8B1E;
+}
+
+#topper h1 {
+  color: #ffffff;
+  font-size: 5em;
+  font-weight: 600;
+}
+
+.topper-sub {
+  color: #4AF6C3;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.2em;
+}
+
+@media only screen and (max-width: 500px) {
+  #topper h1 {
+    font-size: 2.5em;
+  }
 }
  
