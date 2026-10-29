@@ -114,8 +114,7 @@ footer {
   padding: 25px;
 }
 
-/* new page topper cause im afraid the last one isnt as good*/
-/* Page topper */
+/* new page topper */
 #topper {
   padding: 60px 0 40px;
   border-bottom: 1px solid #FB8B1E;
@@ -133,6 +132,7 @@ footer {
   font-size: 1.2em;
 }
 
+/*boundary rules*/
 @media only screen and (max-width: 500px) {
   #topper h1 {
     font-size: 2.5em;
