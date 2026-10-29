@@ -1,0 +1,116 @@
+/*cooooooop*/
+
+
+/* backdrop, main */
+body {
+  background-color: #000000;
+  color: #e6e6e6;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+ 
+
+/* headers */
+h1{
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+h2 {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+h3 {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+
+/* nav bar design */
+.navbar-brand {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+
+/* BUTTONS!! */
+.btn {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+
+
+/* adding my ugly face to the top of the page */
+.headshot {
+  width: 100%;
+  max-width: 250px;
+  border: 1px solid #FB8B1E;
+}
+ 
+/* my dope gif video that makes it scrollytelling lmao */
+#masthead img {
+  width: 100%;
+  display: block;
+}
+ 
+/* Navbar */
+.navbar {
+  border-bottom: 1px solid #FB8B1E;
+  background-color: #000000;
+}
+ 
+.navbar-brand {
+  color: #FB8B1E;
+  font-weight: 600;
+}
+ 
+.navbar-text {
+  color: #4AF6C3;
+}
+
+
+/* Header buttons and title */
+.btn-terminal {
+  color: #FB8B1E;
+  background-color: #000000;
+  border: 1px solid #FB8B1E;
+  margin-right: 10px;
+}
+ 
+ 
+/* MAIN column with experience and long text*/
+.container {
+  padding-top: 30px;
+}
+ 
+.intro {
+  font-size: 1.15em;
+  margin-bottom: 40px;
+}
+ 
+.section-heading {
+  color: #FB8B1E;
+  border-bottom: 1px solid #FB8B1E;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+}
+ 
+.job {
+  margin-bottom: 30px;
+}
+ 
+.job-title {
+  color: #ffffff;
+  font-size: 1.25em;
+  margin-bottom: 2px;
+}
+ 
+.job-meta {
+  color: #4AF6C3;
+  font-size: 0.9em;
+  margin-bottom: 8px;
+}
+ 
+footer {
+  border-top: 1px solid #FB8B1E;
+  color: #4AF6C3;
+  text-align: center;
+  padding: 25px;
+}
+ 
